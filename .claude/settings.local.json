@@ -11,7 +11,13 @@
       "Bash(git branch *)",
       "Bash(git push *)",
       "Bash(gh auth *)",
-      "Bash(npm run *)"
+      "Bash(npm run *)",
+      "WebFetch(domain:heartopia-life.me)",
+      "WebFetch(domain:www.heartodex.com)",
+      "WebSearch",
+      "WebFetch(domain:heartopia-hub.vercel.app)",
+      "WebFetch(domain:heartopia.app)",
+      "WebFetch(domain:heartopia-hub.com)"
     ]
   }
 }
