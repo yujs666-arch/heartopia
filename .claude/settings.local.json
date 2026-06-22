@@ -2,7 +2,11 @@
   "permissions": {
     "allow": [
       "WebFetch(domain:heartopia.xd.com)",
-      "Bash(npx create-next-app@latest *)"
+      "Bash(npx create-next-app@latest *)",
+      "Bash(npx shadcn@latest *)",
+      "Bash(npm install *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
     ]
   }
 }
