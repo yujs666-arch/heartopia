@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Noto_Sans_KR, Geist_Mono } from "next/font/google";
+import { AuthProvider } from "@/contexts/AuthContext";
 import "./globals.css";
 
 const notoSansKR = Noto_Sans_KR({
@@ -28,7 +29,9 @@ export default function RootLayout({
       lang="ko"
       className={`${notoSansKR.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full">{children}</body>
+      <body className="min-h-full">
+        <AuthProvider>{children}</AuthProvider>
+      </body>
     </html>
   );
 }
